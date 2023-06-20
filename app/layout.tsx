@@ -17,8 +17,6 @@ export default function RootLayout({
       <head>
         <PlausibleProvider
           domain="my-plausible-app.vercel.app"
-          trackLocalhost={true}
-          enabled={true}
           taggedEvents={true}
         />
       </head>
