@@ -1,3 +1,5 @@
+import PlausibleProvider from 'next-plausible'
+
 import './globals.css'
 
 export const metadata = {
@@ -12,6 +14,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider
+          domain="spacejelly.dev"
+          trackLocalhost={true}
+          enabled={true}
+          taggedEvents={true}
+        />
+      </head>
       <body>{children}</body>
     </html>
   )
