@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <PlausibleProvider
-          domain="spacejelly.dev"
+          domain="my-plausible-app.vercel.app"
           trackLocalhost={true}
           enabled={true}
           taggedEvents={true}
