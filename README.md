@@ -6,6 +6,8 @@ Demo for tutorial [Privacy-Friendly Analytics in Next.js 13 with Plausible](http
 
 📝 Article: Coming soon!
 
+🚀 Demo: https://my-plausible-app.vercel.app/
+
 ## More tutorials and walkthroughs
 
 🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
